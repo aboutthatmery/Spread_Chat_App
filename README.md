@@ -2,7 +2,7 @@
 Little chat App for our class
 # Code Busters Chat
 
-![It looks like this(./img/spreader.png)
+![It looks like this](spreader.png)
 
 #### Navigation
 
