@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Spread Chat App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Spreader</h1>
+
+      <div id="inputDiv">
+        <form action="">
+          <div>
+            <label>USER:</label>
+            <input type="text" title="title" id="title" placeholder="Name" />
+          </div>
+          <div>
+            <label>Message</label>
+            <textarea
+              name=""
+              id="content"
+              cols="30"
+              rows="10"
+              placeholder="your spread ..."
+            ></textarea>
+          </div>
+          <div>
+            <button>Send</button>
+          </div>
+          <div><button onclick="removeUser()">Refresh</button></div>
+        </form>
+      </div>
+    </div>
+    <div id="postContainer"></div>
+    <!--End Container-->
+    <script src="./script.js"></script>
+  </body>
+</html>
